@@ -36,3 +36,8 @@ if(galleryImages){
 function closeImg(){
     document.querySelector(".img-window").remove();
 }
+
+const toggle = () => {
+    const nav = document.querySelector('.nav');
+        nav.classList.toggle("active");
+    }

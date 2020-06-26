@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
-* {
+*{
 	margin: 0;
 	padding: 0;
 	-webkit-box-sizing: border-box;
@@ -15,11 +14,11 @@ body {
 	color: #333;
 }
 
-/* Links */
+/********     Links     ********/
 
 a {
 	text-decoration: none;
-	color: #fff;
+	color: #333;
 	outline: none;
 	font-size: .8em;
 	text-transform: uppercase;
@@ -34,7 +33,7 @@ a:focus {
 	transition: color 0.3s;
 }
 
-/* Header */
+/***********       Header     ********/
 
 .header {
 	position: fixed;
@@ -76,8 +75,8 @@ header.sticky .title{
 }
 
 .title {
-	color: #fff;
-	font-family: 'Sacramento', cursive, sans-serif;
+	color: #333;
+	font-family: 'Prata', serif;
 	font-size: 1.5sem;
 	margin: 0;
 }
@@ -90,16 +89,6 @@ header.sticky .title{
 .nav a {
 	margin-right: 10px;
 	white-space: nowrap;
-}
-
-@media screen and (max-width: 40em) {
-	.header {
-		text-align: center;
-		display: block;
-	}
-	.nav {
-		padding: 0.6em;
-	}
 }
 
 
@@ -120,7 +109,7 @@ header.sticky .title{
 }
 
 
-/* Gallery container */
+/*******      Gallery container      ******/
 #index-gallery {
     display:grid;
     grid-template-columns: repeat(4, 1fr);
@@ -141,7 +130,7 @@ header.sticky .title{
 
 #portfolio .content h2 {
 	font-weight: 100;
-	margin-bottom: 2em;
+	margin: 1em 0 2em 0;
 }
 
 #portfolio .content span {
@@ -162,155 +151,154 @@ header.sticky .title{
 	align-items: center;
 }
 
-/*Images*/
+/*********        Images      *******/
 #index-gallery .img1{
     grid-area: img1;
-	background-image: url("photos/thumbs/img1.png");
+	background-image: url("photos/thumbs/img1.jpg");
 }
 #index-gallery .img2{
     grid-area: img2;
-    background-image: url("photos/thumbs/img2.png");
+    background-image: url("photos/thumbs/img2.jpg");
 }
 #index-gallery .img3{
     grid-area: img3;
-    background-image: url("photos/thumbs/img3.png");
+    background-image: url("photos/thumbs/img3.jpg");
     height: 610px;
 }
 #index-gallery .img4{
     grid-area: img4;
-    background-image: url("photos/thumbs/img4.png");
+    background-image: url("photos/thumbs/img4.jpg");
 }
 #index-gallery .img5{
     grid-area: img5;
-    background-image: url("photos/thumbs/img5.png");
+    background-image: url("photos/thumbs/img5.jpg");
 }
 #index-gallery .img6{
     grid-area: img6;
-    background-image: url("photos/thumbs/img6.png");
+    background-image: url("photos/thumbs/img6.jpg");
 }
 #index-gallery .img7{
     grid-area: img7;
-    background-image: url("photos/thumbs/img7.png");
+    background-image: url("photos/thumbs/img7.jpg");
 }
 #index-gallery .img8{
     grid-area: img8;
-	background-image: url("photos/thumbs/img8.png");
+	background-image: url("photos/thumbs/img8.jpg");
 	height: 610px;
 }
 #index-gallery .img9{
     grid-area: img9;
-    background-image: url("photos/thumbs/img9.png");
+    background-image: url("photos/thumbs/img9.jpg");
 }
 #index-gallery .img10{
     grid-area: img10;
-    background-image: url("photos/thumbs/img10.png");
+    background-image: url("photos/thumbs/img10.jpg");
 }
 #index-gallery .img11{
     grid-area: img11;
-    background-image: url("photos/thumbs/img11.png");
+    background-image: url("photos/thumbs/img11.jpg");
 }
 #index-gallery .img12{
     grid-area: img12;
-    background-image: url("photos/thumbs/img12.png");
+    background-image: url("photos/thumbs/img12.jpg");
 }
 #index-gallery .img13{
     grid-area: img13;
-    background-image: url("photos/thumbs/img13.png");
+    background-image: url("photos/thumbs/img13.jpg");
 }
 #index-gallery .img14{
     grid-area: img14;
-    background-image: url("photos/thumbs/img14.png");
+    background-image: url("photos/thumbs/img14.jpg");
 }
 #index-gallery .img15{
     grid-area: img15;
-    background-image: url("photos/thumbs/img15.png");
+    background-image: url("photos/thumbs/img15.jpg");
 }
 #index-gallery .img16{
     grid-area: img16;
-    background-image: url("photos/thumbs/img16.png");
+    background-image: url("photos/thumbs/img16.jpg");
 }
 #index-gallery .img17{
     grid-area: img17;
-    background-image: url("photos/thumbs/img17.png");
+    background-image: url("photos/thumbs/img17.jpg");
 }
 #index-gallery .img18{
     grid-area: img18;
-    background-image: url("photos/thumbs/img18.png");
+    background-image: url("photos/thumbs/img18.jpg");
 }
 #index-gallery .img19{
     grid-area: img19;
-    background-image: url("photos/thumbs/img19.png");
+    background-image: url("photos/thumbs/img19.jpg");
 }
 #index-gallery .img20{
     grid-area: img20;
-    background-image: url("photos/thumbs/img20.png");
+    background-image: url("photos/thumbs/img20.jpg");
 }
 #index-gallery .img21{
     grid-area: img21;
-    background-image: url("photos/thumbs/img21.png");
+    background-image: url("photos/thumbs/img21.jpg");
 }
 #index-gallery .img22{
     grid-area: img22;
-    background-image: url("photos/thumbs/img22.png");
+    background-image: url("photos/thumbs/img22.jpg");
 }
 #index-gallery .img23{
     grid-area: img23;
-    background-image: url("photos/thumbs/img23.png");
+    background-image: url("photos/thumbs/img23.jpg");
 }
 #index-gallery .img24{
     grid-area: img24;
-    background-image: url("photos/thumbs/img24.png");
+    background-image: url("photos/thumbs/img24.jpg");
 }
 #index-gallery .img25{
     grid-area: img25;
-    background-image: url("photos/thumbs/img25.png");
+    background-image: url("photos/thumbs/img25.jpg");
 }
 #index-gallery .img26{
     grid-area: img26;
-    background-image: url("photos/thumbs/img26.png");
+    background-image: url("photos/thumbs/img26.jpg");
 }
 #index-gallery .img27{
     grid-area: img27;
-    background-image: url("photos/thumbs/img27.png");
+    background-image: url("photos/thumbs/img27.jpg");
 }
 #index-gallery .img28{
     grid-area: img28;
-    background-image: url("photos/thumbs/img28.png");
+    background-image: url("photos/thumbs/img28.jpg");
 }
 #index-gallery .img29{
     grid-area: img29;
-    background-image: url("photos/thumbs/img29.png");
+    background-image: url("photos/thumbs/img29.jpg");
 }
 #index-gallery .img30{
     grid-area: img30;
-    background-image: url("photos/thumbs/img30.png");
+    background-image: url("photos/thumbs/img30.jpg");
 }
 #index-gallery .img31{
     grid-area: img31;
-	background-image: url("photos/thumbs/img31.png");
+	background-image: url("photos/thumbs/img31.jpg");
 	height: 610px;
 }
 #index-gallery .img32{
     grid-area: img32;
-    background-image: url("photos/thumbs/img32.png");
+    background-image: url("photos/thumbs/img32.jpg");
 }
 #index-gallery .img33{
     grid-area: img33;
-    background-image: url("photos/thumbs/img33.png");
+    background-image: url("photos/thumbs/img33.jpg");
 }
 #index-gallery .img34{
     grid-area: img34;
-    background-image: url("photos/thumbs/img34.png");
+    background-image: url("photos/thumbs/img34.jpg");
 }
 #index-gallery .img35{
     grid-area: img35;
-    background-image: url("photos/thumbs/img35.png");
+    background-image: url("photos/thumbs/img35.jpg");
 }
 
 
 
-
-/*Gallery image titles */
+/********    Gallery  ******/
 .gallery-img div{
     width: 100%;
     height: 100%;
@@ -331,7 +319,7 @@ header.sticky .title{
     transition: all ease-in-out 100ms;
 }
 
-/* Pop up */
+/******* Pop up *******/
 .img-window{
     width: 100vw;
     height: 100vh;
@@ -351,13 +339,11 @@ header.sticky .title{
 	max-height: 80vh;
 }
 
-
 /****************************************************************************************/
 #about .content{
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 	grid-template-rows: auto;
-	background-color: rgba(219, 215, 215, 0.418);
 }
 #about .box{
 	width: 100%;
@@ -365,7 +351,7 @@ header.sticky .title{
 }
 
 #about .box:nth-child(2){
-	padding: 4em 3em;
+	padding: 2em 3em;
 }
 
 #about img{
@@ -396,18 +382,7 @@ footer .content>div{
 	margin-top: 3em;
 }  
 
-footer .content .mail:hover::after{
-	content: "Hablemos 😉";
-	font-size: 20px;
-	padding: 3px;
-	background: blueviolet;
-	color: #fff;
-	position: absolute;
-	top: -40px;
-	right: 410px;
-}
-
-/***********************************************************/
+/******        Responsive       ********/
 
 
 @media screen and (max-width: 900px){
@@ -445,6 +420,8 @@ footer .content .mail:hover::after{
 	#about p{
 		font-size: .8em;
 	}
+
+
 	
 }
 
@@ -487,4 +464,49 @@ footer .content .mail:hover::after{
 							 "img35";
 	}
 
+	.header {
+		text-align: center;
+		display: block;
+	}
+	.nav {
+		padding: 0.6em;
+	}
+	.center-align.icon {
+		color: #000;
+		position: absolute;
+		margin-left: 10px;
+		top: 25px;
+		width: 25px;
+		height: 10px;
+		border-top: solid 1px currentColor;
+		border-bottom: solid 1px currentColor;
+		cursor: pointer;
+	}
+	 
+	.center-align.icon:before {
+		content: '';
+		position: absolute;
+		top: 3.5px;
+		left: 2px;
+		width: 20px;
+		height: 8px;
+		border-top: solid 1px currentColor;
+		border-bottom: solid 1px currentColor;
+	}
+	  
+	.nav{
+		display: none;
+	}
+	  
+	.active{
+		display: block;
+	}
+	  
+	#portfolio .content h2 {
+		font-size: 1em;
+	}
+
+	#about{
+		padding-bottom: 0;
+	}
 }
